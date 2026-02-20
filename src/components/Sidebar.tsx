@@ -1,4 +1,4 @@
-import { Shield, Activity, ChevronRight, Zap, ArrowLeftRight, ScanSearch } from 'lucide-react';
+import { Shield, Activity, ChevronRight, ArrowLeftRight, ScanSearch } from 'lucide-react';
 import FileUpload from './FileUpload';
 
 interface SidebarProps {
@@ -13,7 +13,6 @@ interface SidebarProps {
 
 const navItems = [
   { id: 'dashboard', label: 'Dashboard', icon: Activity },
-  { id: 'disruption', label: 'Active Disruption', icon: Zap },
   { id: 'kyc', label: 'KYC Verify', icon: ScanSearch },
   { id: 'transactions', label: 'Blockchain Audit', icon: ArrowLeftRight },
 ];
